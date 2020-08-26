@@ -1,0 +1,25 @@
+insert into CLIENTE values(1,'Josue Miguel','Cobos Rodriguez','1345672451','0985773311');
+insert into CLIENTE values(2,'Edgar Alexander','Chavez Zambrano','1308866111','0944456112');
+insert into CLIENTE values(3,'Jimmy Enrique','Giler Ruiz','1345521000','0978999211');
+insert into CLIENTE values(4,'Dayanara Lourdes','Bermudez Macias','1388900012','0983218892');
+insert into CLIENTE values(5,'Maria Mercedes','Suarez Anchundia','1380911231','0988999123');
+
+select * from CLIENTE
+
+
+insert into PROVEEDOR values (1,'Santa Marta','SantaMarta@gmail.com','098990231');
+insert into PROVEEDOR values(2,'Cruz Azul','CruzAzul@gmail.com','0900321648');
+insert into PROVEEDOR values(3,'Sana Sana','SanaSana@gmail.com','0945318891');
+insert into PROVEEDOR values(4,'San Gregorio','SanGregorio@gmail.com','0989001234');
+insert into PROVEEDOR values(5,'Economica','Economica@gmail.com','0989002134');
+
+select * from PROVEEDOR
+
+
+insert into PRODUCTO values (1,1,'Paracetamol');
+insert into PRODUCTO values(2,2,'Redoxon');
+insert into PRODUCTO values(3,3,'Lemonflu');
+insert into PRODUCTO values(4,4,'Aspirina');
+insert into PRODUCTO values(5,5,'Flumicil');
+
+Select * from PRODUCTO
